@@ -1,0 +1,3 @@
+%%pyspark
+df = spark.read.load('abfss://aceabf52-d605-424a-bf4b-c41ada4dd3d3@onelake.dfs.fabric.microsoft.com/eb83e950-65b8-40ef-b59d-d83263cdb31f/Tables/sales')
+display(df.limit(10))
